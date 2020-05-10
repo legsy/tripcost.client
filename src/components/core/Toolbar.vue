@@ -229,6 +229,12 @@ export default {
             class: 'btnHome'
           },
           {
+            title: this.$t('trips.TITLE'),
+            link: 'trips',
+            icon: 'mdi-face',
+            class: 'btnProfile'
+          },
+          {
             title: this.$t('menuItems.ABOUT'),
             link: 'about',
             icon: 'mdi-help-circle-outline',
